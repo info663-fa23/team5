@@ -11,7 +11,7 @@ source,Source,,,,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
-rightsstatement,,,,DCTERMS.rights,license
+rightsstatement,,,,,license
 datacite:dateType,Date Type,,,,
 datacite:identifier,DOI,,,DCTERMS.identifier,identifier
 datacite:affiliation,Department,,,,department
@@ -20,5 +20,5 @@ etd-ms:thesis.degree.level,Degree Level,,,DCTERMS.educationalLevel,educationalLe
 dc:publisher,Publisher,,,DCTERMS.publisher,publisher
 datacite:subjectScheme,Subject Scheme,,,,
 language,Language,,,DCTERMS.language,inLanguage
-rights,Rights,,,,conditionsOfAccess
+rights,Rights,,,DCTERMS.rights,conditionsOfAccess
 object_location,URL,,,DCTERMS.identifier,url
