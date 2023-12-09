@@ -17,7 +17,7 @@ datacite:identifier,DOI,,,DCTERMS.identifier,identifier
 datacite:affiliation,Department,,,,department
 etd-ms:thesis.degree.name,Degree,,,,inSupportOf
 etd-ms:thesis.degree.level,Degree Level,,,DCTERMS.educationalLevel,educationalLevel
-dc:publisher,Publisher,,,DCTERMS.publisher,publisher
+dc:publisher,Institution,,,DCTERMS.publisher,publisher
 datacite:subjectScheme,Subject Scheme,,,,
 language,Language,,,DCTERMS.language,inLanguage
 rights,Rights,,,DCTERMS.rights,conditionsOfAccess
