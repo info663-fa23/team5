@@ -7,3 +7,5 @@ subject,true,true
 location,true,false
 dc:publisher,true,true
 datacite:affiliation,true,true
+language,true,true
+rights,true,true
