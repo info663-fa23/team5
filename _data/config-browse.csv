@@ -4,4 +4,6 @@ creator,Author,,,
 subject,Subject,,,true
 location,Location,,,true
 identifier,,,true,Identifier
-language,Language,,,true
+dc:publisher,Institution,,,true
+datacite:affiliation,Department,,,true
+etd-ms:thesis.degree.name,Degree,,,true
