@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: 
+featured-image: "https://www.publicdomainpictures.net/pictures/140000/nahled/banner-header-1449745071UBW.jpg"
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 15em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
@@ -26,7 +26,6 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 subjects-fields: subject;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
 subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
-navbar-color: "navbar-dark"
 
 ##########
 # LOCATIONS PAGE
@@ -93,7 +92,7 @@ navbar-background: "bg-info"
 # BOOTSWATCH THEMES [optional!]
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: "morph" # leave blank or comment out for plain bootstrap
+bootswatch: "flatly" # leave blank or comment out for plain bootstrap
 
 # THEME FONTS [optional!]
 base-font-size: 1em
