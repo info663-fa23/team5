@@ -15,7 +15,7 @@ $color-contrast-dark:      $black !default;
 $color-contrast-light:     $white !default;
 
 $component-active-color:      $white !default;
-$component-active-bg:         $primary !default;
+$component-active-bg:         $info !default;
 
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
@@ -141,7 +141,7 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
 @mixin theme-button(
         $background,
         $border,
-        $color: "pink" color-contrast($background),
+        $color: color-contrast($background),
         $hover-background: if($color == $color-contrast-light, shade-color($background, $btn-hover-bg-shade-amount), tint-color($background, $btn-hover-bg-tint-amount)),
         $hover-border: if($color == $color-contrast-light, shade-color($border, $btn-hover-border-shade-amount), tint-color($border, $btn-hover-border-tint-amount)),
         $hover-color: color-contrast($hover-background),
